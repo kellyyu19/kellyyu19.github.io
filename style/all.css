@@ -54,9 +54,25 @@ section {
 .hello:hover {
   text-decoration: none;
   color: white;
-  opacity: 0.95;
+  opacity: 0.91;
 }
 
 .proj {
   width: 500px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
