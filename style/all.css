@@ -9,7 +9,7 @@ h2 {
 }
 .home {
   width: 100%;
-  /* margin-bottom: 100px; */
+  margin-bottom: 100px;
   height: auto;
   display: block;
   margin-left: 0;
@@ -75,4 +75,70 @@ a:hover {
 
 a:active {
   text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  .kelly {
+    width: 400px;
+    margin-bottom: 50px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .home {
+    margin-bottom: 30px;
+  }
+
+  .proj {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    width: 450px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .kelly {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .proj {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    width: 500px;
+  }
+
+  .row {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .proj {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    width: 500px;
+  }
+
+  .row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .proj {
+    display: block;
+    margin-right: auto;
+    margin-left: 0px;
+    width: 500px;
+  }
 }
