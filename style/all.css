@@ -4,6 +4,13 @@ body {
   font-family: 'Open Sans';
 }
 
+#brand {
+  color: gray;
+}
+
+#brand:hover {
+  color: black;
+}
 
 h2 {
   font-weight: normal;

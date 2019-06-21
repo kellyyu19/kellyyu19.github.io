@@ -4180,6 +4180,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
+  opacity: 0.5;
   text-decoration: none;
 }
 
